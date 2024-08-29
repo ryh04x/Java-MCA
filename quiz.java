@@ -10,9 +10,6 @@ public class quiz {
         if (input>7) {
             System.out.println("Please enter a number between 1 to 7");
         }
-        else{
-            System.exit(input);
-        }
 
         switch (input) {
             case 1:
