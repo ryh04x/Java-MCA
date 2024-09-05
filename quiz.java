@@ -10,6 +10,9 @@ public class quiz {
         if (input>7) {
             System.out.println("Please enter a number between 1 to 7");
         }
+        
+        // Switch statement example 
+
 
         switch (input) {
             case 1:
@@ -31,9 +34,12 @@ public class quiz {
                 System.out.println("Saturday");
                 break;
             default:
-                System.out.println("Sunday");
+                System.out.println("Sunday");        
                 break;
         }
 
     }
 }
+
+
+// break statement to break switch and no next will be executed if break not used next cases will get executed after matching case
