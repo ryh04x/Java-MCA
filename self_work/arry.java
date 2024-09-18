@@ -1,4 +1,3 @@
-package self_work;
 
 public class arry {
 
